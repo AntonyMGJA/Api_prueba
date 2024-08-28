@@ -78,5 +78,9 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "scripts": {
+  "test": "jest",
+  "test:e2e": "jest --config ./test/jest-e2e.json"
+}
 }
