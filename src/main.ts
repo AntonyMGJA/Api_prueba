@@ -9,7 +9,6 @@ async function bootstrap() {
   .setTitle('API')
   .setDescription('CapsuleCare API')
   .setVersion('1.0')
-  .addBearerAuth()
   .build();
 
   const document = SwaggerModule.createDocument(app, config);
